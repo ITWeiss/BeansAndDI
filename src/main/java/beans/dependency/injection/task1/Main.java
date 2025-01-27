@@ -1,4 +1,4 @@
-package beans.dependency.ijection.task1;
+package beans.dependency.injection.task1;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
