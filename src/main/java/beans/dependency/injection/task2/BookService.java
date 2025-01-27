@@ -1,9 +1,9 @@
-package beans.dependency.ijection.task1;
+package beans.dependency.injection.task2;
 
 public class BookService {
-    private final BookRepository bookRepository;
+    private BookRepository bookRepository;
 
-    public BookService(BookRepository bookRepository) {
+    public void setBookRepository(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
 

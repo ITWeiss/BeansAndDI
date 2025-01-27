@@ -1,4 +1,4 @@
-package beans.dependency.ijection.task1;
+package beans.dependency.injection.task2;
 
 public class BookRepository {
 
